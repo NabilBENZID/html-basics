@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Le titre de la page -->
+    <title>Mon premier projet</title>
+    <!-- Icône de l'onglet -->
+    <link rel="shortcut icon" href="algerie.png">
+</head>
+<body>
+ <header>
+    
+ 
+     <div>
+         <h2>Titre-H1</h2>
+         <img src="/flower.jpg" width="32" height="22">
+         <p> <em>Voici un texte basique</em> <strong>Un texte en gras</strong><span>L'élement en span ne revient pas à la ligne</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolore ipsa nostrum ab provident, unde et minima quasi quas itaque placeat veniam consectetur molestias blanditiis dignissimos deleniti quibusdam. Voluptates porro deserunt dolore nesciunt dolorum incidunt illum earum fuga, magni alias!</p>
+     </div>
+     </header>
+     <section>
+     <div>
+        <h3>Titre-H1</h3>
+        <ul>
+            <li>UL= unordered list</li>
+            <li>UL = unordered list</li>
+            <li>UL = unordered list</li>
+        </ul>
+        <ol>
+            <li>OL = ordered list</li>
+            <li>OL = ordered list</li>
+            <li>OL = ordered list</li>
+        </ol>
+    </div>
+
+    <div>
+        <h1>Titre-H1</h1>
+    </div>
+    <div>
+        <h4>Tableau</h4>
+        <table border="1" width="50%">
+            <!-- legende caption pour HTML -->
+            <caption>Populations d'Europe</caption>
+            <!-- Thead = En tête -->
+            <thead>
+                <tr>
+                    <th>Pays</th>
+                    <th>Populations</th>
+                </tr>
+            </thead>
+            <!-- Corps du tableau -->
+            <tbody>
+                <tr>
+                    <td>France</td>
+                    <td>66M</td>
+                     </tr>
+                     <tr>
+                    <td>Allemagne</td>
+                    <td>82M</td>
+                    </tr>
+                    <tr>
+                      <td>Espagne</td>
+                    <td>47M</td>   
+                    </tr>
+                   
+               
+            </tbody>
+        </table> 
+    </div>
+    <div>
+        <h5> <span>&#9755;</span> Titre 5</h5>
+        <a href="https://htmlcheatsheet.com/"target="blank">
+            HTML Cheat Sheet</a> <br>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/"target="_blank">Icones</a>
+          <p>&#8462; &#8459; &#8464; &#8465;</p>  
+    </div>
+    <div>
+        <h6>Video - Titre H6</h6>
+        <video src="/video.mp4" height ="900" width="800" autoplay loop muted></video>
+    </div>
+ </section>
+ <br>
+ <section>
+    <h2>Formulaire</h2>
+    <form action="/action.php" method="post">
+        <label for="name">Nom</label>
+        <input id ="name" placeholder="Entrez votre nom"><br>
+        <label for="age">age</label>
+        <input id="age" type="number" min="0" max="99" step="1" value="18" > <br>
+        <label for="gender">Genre</label>
+        <select id="gender">
+            <option value="Homme">Homme</option>
+            <option selected value="Femme">Femme</option>
+            <option value="Binaire">Binaire</option>
+            <option value="Non binaire">Non binaire</option>
+        </select><br>
+<!-- Input radio -->
+<div>
+    <input type="radio" name="type"id="human">
+    <label for="humain">Humain</label>
+
+    <input type="radio" name="type"checked id="dog">
+    <label for="humain">Chien</label>
+
+    <input type="radio" name="type"id="Cat">
+    <label for="humain">Chat</label>
+</div>
+<textarea name="Zone de texte" id="textarea" cols="30" rows="10" placeholder="Faîtes vos remarques"></textarea><br>
+   <!-- Input Checkbox -->
+   <label></label><input type="checkbox" name="" id="">Acceptez les conditions de vente générales</label><br>
+   <input type="submit" value="Valider">
+</form>
+ </section>
+ <br>
+ <!-- Mail & envoi de fichier -->
+ <footer>
+     <a href="mailto:nabiloudz@gmail.com">Ecrivez-moi vos remarques</a><br>
+     <a href="/notice.txt" download="nom-du-fichier">Téléchargez la notice</a>
+ </footer>
+</body>
+
+</html>
